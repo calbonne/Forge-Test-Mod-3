@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "macmod:ruby"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "#I ",
+    "IS ",
+    "  S"
+  ],
+  "result": {
+    "item": "macmod:metal_detector"
+  },
+  "show_notification": true
+}

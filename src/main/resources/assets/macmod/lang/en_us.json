@@ -1,0 +1,20 @@
+{
+  "item.macmod.sapphire": "Sapphire",
+  "item.macmod.raw_sapphire": "Raw Sapphire",
+  "item.macmod.ruby": "Ruby",
+
+  "item.macmod.pine_cone": "Pine Cone",
+
+  "item.macmod.strawberry": "Strawberry",
+
+  "item.macmod.metal_detector": "Metal Detector",
+  "tooltip.macmod.metal_detector.tooltip": "Finds shit underground ig idk use it fucker",
+
+  "block.macmod.sapphire_block": "Block of Sapphire",
+  "block.macmod.raw_sapphire_block": "Sapphire Ore",
+  "block.macmod.raw_ruby_block": "Ruby Ore",
+  "block.macmod.sound_block": "Mod Sound Block",
+  "block.macmod.redstone_router": "Redstone Router",
+
+  "creativetab.tutorial_tab": "Sapphire Tab"
+}

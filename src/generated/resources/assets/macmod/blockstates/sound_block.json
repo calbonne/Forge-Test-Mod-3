@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "macmod:block/sound_block"
+    }
+  }
+}
