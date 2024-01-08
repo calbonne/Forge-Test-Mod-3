@@ -1,7 +1,11 @@
-// 1.20.2	2024-01-07T11:51:36.5768672	Item Models: macmod
+// 1.20.1	2024-01-07T18:43:42.2281017	Item Models: macmod
 844bf69aa9d41c100fd960ecaff03293559e52dc assets/macmod/models/item/metal_detector.json
 f6c0983b1a5b1693e128c662b89123ceee2e7d05 assets/macmod/models/item/pine_cone.json
 2deb80adb2d8c998d489715ec112d7d7f635efb3 assets/macmod/models/item/raw_sapphire.json
 f87070a42c2a7356c3dfdfa80ae535a245cf709d assets/macmod/models/item/ruby.json
 29cdfd377762db7606c764f71fe4918bd16c318f assets/macmod/models/item/sapphire.json
+da44c885873ca642f514e6674e0f7a26c17e1127 assets/macmod/models/item/sapphire_button.json
+d6c794a500b63871b6fdbe857c7a9dc437173357 assets/macmod/models/item/sapphire_door.json
+d4e52d4048d07d1ffcd73d01b848f7f79aff252f assets/macmod/models/item/sapphire_fence.json
+3a0805cd1cde79c6224a1c517a514804206d7ce3 assets/macmod/models/item/sapphire_wall.json
 a1f801929fe6c276899af96ab5fdf04fe13ce004 assets/macmod/models/item/strawberry.json

@@ -1,5 +1,15 @@
-// 1.20.2	2024-01-07T11:51:36.5753604	Loot Tables
+// 1.20.1	2024-01-07T18:43:42.2271007	Loot Tables
 e327f46c90285967cc76f86db141ec8cd36992ec data/macmod/loot_tables/blocks/raw_ruby_block.json
 7548a645b8477904ad0f0fb5f2139b90a5ac6617 data/macmod/loot_tables/blocks/raw_sapphire_block.json
+7c42f764deb0da2a0d6a4e682d69a413343dad03 data/macmod/loot_tables/blocks/redstone_router.json
 d27175827c73d28e6ce607da05d3b67123ccf7be data/macmod/loot_tables/blocks/sapphire_block.json
+1d8e4d2e3bed035c1e0a47755121794c388b98e9 data/macmod/loot_tables/blocks/sapphire_button.json
+cc1b4971d87c5b1fa345f4751b4fde88fd950e00 data/macmod/loot_tables/blocks/sapphire_door.json
+5adb9d609017329e3e046c90faad6410b885a983 data/macmod/loot_tables/blocks/sapphire_fence.json
+e77e25243ca44d6dfee6196237b938049546955e data/macmod/loot_tables/blocks/sapphire_fence_gate.json
+bc4e2f0e4149a948c20276db47f36055fa8b0ea4 data/macmod/loot_tables/blocks/sapphire_pressure_plate.json
+fbfe33cd9a855984a0ac6c70a4cc447f5e4a9b1b data/macmod/loot_tables/blocks/sapphire_slab.json
+d1892a51d70972677893eb6c316a09deaea43e97 data/macmod/loot_tables/blocks/sapphire_stairs.json
+40c6289ecd41c9f99ab9fea9bd416e37de56e0c8 data/macmod/loot_tables/blocks/sapphire_trapdoor.json
+5ffd3bd0ab2d6dbb24ce8e2791442c41a946e46c data/macmod/loot_tables/blocks/sapphire_wall.json
 bdca6777248614d8923fb9942c80f58660ac6cd1 data/macmod/loot_tables/blocks/sound_block.json

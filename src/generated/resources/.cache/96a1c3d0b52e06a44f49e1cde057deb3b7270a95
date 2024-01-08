@@ -1,10 +1,13 @@
-// 1.20.2	2024-01-07T13:05:51.6572511	Tags for minecraft:block mod id macmod
+// 1.20.1	2024-01-07T18:43:42.2281017	Tags for minecraft:block mod id macmod
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_gold_tool.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_netherite_tool.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_wood_tool.json
 92593df6cb948a5f6cf3d5723564ef88e6107631 data/macmod/tags/blocks/metal_detector_valuables.json
 006dec4757a6b138b998a4a59e705a6950aa0714 data/macmod/tags/blocks/mod_ores.json
+4194a1764e18c334f13abf00902046cadd8636fa data/minecraft/tags/blocks/fences.json
+c78660c5665e0cd83b7590f5d6b401510a7757d9 data/minecraft/tags/blocks/fence_gates.json
 e2ac49a1d46f982869c030038dc9f32164daa124 data/minecraft/tags/blocks/mineable/pickaxe.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_diamond_tool.json
 728fe03a098f1a1256c09af153946aa4fbae0611 data/minecraft/tags/blocks/needs_iron_tool.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_stone_tool.json
+117cd1cb722d255f07fa1a5dac99cca4278a2537 data/minecraft/tags/blocks/walls.json
