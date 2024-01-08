@@ -1,6 +1,7 @@
-// 1.20.1	2024-01-07T18:43:42.2281017	Block States: macmod
+// 1.20.1	2024-01-07T20:39:05.0246889	Block States: macmod
 20ad43fc84aeedb364021f0d8438cab636b3253b assets/macmod/blockstates/raw_ruby_block.json
 6f38b32a121c8b0de5cd908da1ac01a5486740a3 assets/macmod/blockstates/raw_sapphire_block.json
+b0cdc7d0e332c71af9602e761c3b7b2e18242625 assets/macmod/blockstates/redstone_router.json
 4eae64d97a709bc371efcbe9109bc8baabec52db assets/macmod/blockstates/sapphire_block.json
 4ed0a1038aaa704c365100d3053164c1f69b3516 assets/macmod/blockstates/sapphire_button.json
 accdda5528ea76aad476247d1bc7ef184d72ea23 assets/macmod/blockstates/sapphire_door.json
@@ -14,6 +15,7 @@ a3e9a14027bce2e2b88962e44e0dfddb9bf4aa01 assets/macmod/blockstates/sapphire_wall
 f74d8681b7a025bac5ddcb7a1890100cc0b94587 assets/macmod/blockstates/sound_block.json
 bad8a36095bc0ea725822cc3051a1070f1b82434 assets/macmod/models/block/raw_ruby_block.json
 f18e866a4816e46d53e2ab224c9831c98aede1ff assets/macmod/models/block/raw_sapphire_block.json
+1e343f7e0be6af5b90c06d811e14f61690b04c2b assets/macmod/models/block/redstone_router.json
 929bf8f4c2a7dd6ff64eacbb0914c50c4121732d assets/macmod/models/block/sapphire_block.json
 63da000af1d7ddc3265f5233c8dd44f2861abc11 assets/macmod/models/block/sapphire_button.json
 d86ae09b6a152f8559b600cf7cd75c5cd21493ff assets/macmod/models/block/sapphire_button_pressed.json
@@ -47,5 +49,6 @@ c608cbf621435e0930da78aa48f528cee9b93f66 assets/macmod/models/block/sapphire_sta
 ba25596a12c5836af903256d491a43d70689edad assets/macmod/models/block/sound_block.json
 148bf02c6b3210109bb808af048be7c389d3d0e0 assets/macmod/models/item/raw_ruby_block.json
 9a583a6469ef332d9e6000b1dd60b06f5a2558e9 assets/macmod/models/item/raw_sapphire_block.json
+1cf83913509d4f26fba53a7dce6eb03b335fd1f9 assets/macmod/models/item/redstone_router.json
 49bef9143ac60cb10b719063a5d4f8571ed8100a assets/macmod/models/item/sapphire_block.json
 a382d5df47c036452c0a5fba4b9e24925eb4f90b assets/macmod/models/item/sound_block.json
