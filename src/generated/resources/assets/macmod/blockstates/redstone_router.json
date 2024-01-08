@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "macmod:block/redstone_router"
+    }
+  }
+}

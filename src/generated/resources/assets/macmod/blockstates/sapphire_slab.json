@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "macmod:block/sapphire_slab"
+    },
+    "type=double": {
+      "model": "macmod:block/sapphire_block"
+    },
+    "type=top": {
+      "model": "macmod:block/sapphire_slab_top"
+    }
+  }
+}
