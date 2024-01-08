@@ -48,5 +48,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL);
         this.tag(Tags.Blocks.NEEDS_WOOD_TOOL);
         this.tag(Tags.Blocks.NEEDS_GOLD_TOOL);
+
+        this.tag(BlockTags.FENCES)
+                .add(ModBlocks.SAPPHIRE_FENCE.get());
+        this.tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+        this.tag(BlockTags.WALLS)
+                .add(ModBlocks.SAPPHIRE_WALL.get());
     }
 }

@@ -16,5 +16,15 @@
   "block.macmod.sound_block": "Mod Sound Block",
   "block.macmod.redstone_router": "Redstone Router",
 
+  "block.macmod.sapphire_stairs": "Sapphire Stairs",
+  "block.macmod.sapphire_slab": "Sapphire Slab",
+  "block.macmod.sapphire_button": "Sapphire Button",
+  "block.macmod.sapphire_pressure_place": "Sapphire Pressure Plate",
+  "block.macmod.sapphire_fence": "Sapphire Fence",
+  "block.macmod.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.macmod.sapphire_wall": "Sapphire Wall",
+  "block.macmod.sapphire_door": "Sapphire Door",
+  "block.macmod.sapphire_trapdoor": "Sapphire Trapdoor",
+
   "creativetab.tutorial_tab": "Sapphire Tab"
 }

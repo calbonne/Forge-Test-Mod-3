@@ -27,11 +27,25 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
         this.dropSelf(ModBlocks.SAPPHIRE_BLOCK.get());
         this.dropSelf(ModBlocks.SOUND_BLOCK.get());
+        this.dropSelf(ModBlocks.REDSTONE_ROUTER.get());
 
         this.add(ModBlocks.RAW_RUBY_BLOCK.get(),
                 block -> createOreDrop(ModBlocks.RAW_RUBY_BLOCK.get(), ModItems.SAPPHIRE.get()));
         this.add(ModBlocks.RAW_SAPPHIRE_BLOCK.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.RAW_SAPPHIRE_BLOCK.get(), ModItems.SAPPHIRE.get()));
+
+        this.dropSelf(ModBlocks.SAPPHIRE_FENCE.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_BUTTON.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_WALL.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_STAIRS.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get());
+
+        this.add(ModBlocks.SAPPHIRE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.SAPPHIRE_SLAB.get()));
+        this.add(ModBlocks.SAPPHIRE_DOOR.get(),
+                block -> createDoorTable(ModBlocks.SAPPHIRE_DOOR.get()));
     }
 
     // custom ore loot table method off of copper ore loot table method from parent class
