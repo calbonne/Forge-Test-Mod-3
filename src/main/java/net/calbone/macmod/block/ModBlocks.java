@@ -55,7 +55,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> GEM_POLISHING_STATION = registerBlock("gem_polishing_station",
             () -> new GemPolishingStationBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
-
+            //errors but ill fix it later
 
     public static final RegistryObject<Block> RAW_SAPPHIRE_BLOCK = registerBlock("raw_sapphire_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)));
