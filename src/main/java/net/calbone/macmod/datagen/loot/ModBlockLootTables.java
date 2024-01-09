@@ -45,6 +45,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createSlabItemTable(ModBlocks.SAPPHIRE_SLAB.get()));
         this.add(ModBlocks.SAPPHIRE_DOOR.get(),
                 block -> createDoorTable(ModBlocks.SAPPHIRE_DOOR.get()));
+
+        this.dropSelf(ModBlocks.GEM_POLISHING_STATION.get());
     }
 
     // custom ore loot table method off of copper ore loot table method from parent class

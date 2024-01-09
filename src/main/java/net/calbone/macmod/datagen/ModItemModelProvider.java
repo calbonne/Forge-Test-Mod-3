@@ -29,6 +29,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.STRAWBERRY);
 
         simpleBlockItem(ModBlocks.SAPPHIRE_DOOR);
+        trapDoorItem(ModBlocks.SAPPHIRE_TRAPDOOR);
         evenSimplerBlockItem(ModBlocks.SAPPHIRE_STAIRS);
         evenSimplerBlockItem(ModBlocks.SAPPHIRE_SLAB);
         evenSimplerBlockItem(ModBlocks.SAPPHIRE_FENCE_GATE);
@@ -59,10 +60,15 @@ public class ModItemModelProvider extends ItemModelProvider {
                 .texture("wall", new ResourceLocation(MacMod.MOD_ID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
     }
 
-    private ItemModelBuilder simpleBlockItem(RegistryObject<Block> item){
-        return withExistingParent(item.getId().getPath(),
+    public void trapDoorItem(RegistryObject<Block> block){
+        this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(),
+                modLoc("block/" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath() + "_bottom"));
+    }
+
+    private ItemModelBuilder simpleBlockItem(RegistryObject<Block> block){
+        return withExistingParent(block.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
-                new ResourceLocation(MacMod.MOD_ID, "item/" + item.getId().getPath()));
+                new ResourceLocation(MacMod.MOD_ID, "item/" + block.getId().getPath()));
     }
 
     public void evenSimplerBlockItem(RegistryObject<Block> block){

@@ -1,6 +1,7 @@
 package net.calbone.macmod.block;
 
 import net.calbone.macmod.MacMod;
+import net.calbone.macmod.block.custom.GemPolishingStationBlock;
 import net.calbone.macmod.block.custom.SoundBlock;
 import net.calbone.macmod.item.ModItems;
 import net.minecraft.sounds.SoundEvent;
@@ -51,6 +52,9 @@ public class ModBlocks {
             () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion(), BlockSetType.IRON));
     public static final RegistryObject<Block> SAPPHIRE_TRAPDOOR = registerBlock("sapphire_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion(), BlockSetType.IRON));
+
+    public static final RegistryObject<Block> GEM_POLISHING_STATION = registerBlock("gem_polishing_station",
+            () -> new GemPolishingStationBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
 
     public static final RegistryObject<Block> RAW_SAPPHIRE_BLOCK = registerBlock("raw_sapphire_block",

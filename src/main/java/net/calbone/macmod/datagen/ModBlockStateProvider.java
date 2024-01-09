@@ -5,6 +5,7 @@ import net.calbone.macmod.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.*;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
+import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -33,6 +34,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         doorBlockWithRenderType(((DoorBlock) ModBlocks.SAPPHIRE_DOOR.get()), modLoc("block/sapphire_door_bottom"), modLoc("block/sapphire_door_top"), "cutout");
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.SAPPHIRE_TRAPDOOR.get()), modLoc("block/sapphire_trapdoor"), true, "cutout");
+
+        simpleBlock(ModBlocks.GEM_POLISHING_STATION.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/gem_polishing_station")));
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject){
