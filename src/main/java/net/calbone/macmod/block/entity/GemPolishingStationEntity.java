@@ -2,8 +2,11 @@ package net.calbone.macmod.block.entity;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
+import net.minecraft.world.Containers;
 import net.minecraft.world.MenuProvider;
+import net.minecraft.world.SimpleContainer;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
@@ -31,8 +34,31 @@ public class GemPolishingStationEntity extends BlockEntity implements MenuProvid
     private int progress = 0;
     private int maxProgress = 70;
 
-    public GemPolishingStationEntity(BlockEntityType<?> pType, BlockPos pPos, BlockState pBlockState) {
-        super(pType, pPos, pBlockState);
+    public GemPolishingStationEntity(BlockPos pPos, BlockState pBlockState) {
+        super(pPos, pBlockState);
+        this.data = new ContainerData() {
+            @Override
+            public int get(int pIndex) {
+                return switch (pIndex){
+                    case 0 -> GemPolishingStationEntity.this.progress;
+                    case 1 -> GemPolishingStationEntity.this.maxProgress;
+                    default -> 0;
+                };
+            }
+
+            @Override
+            public void set(int pIndex, int pValue) {
+                switch (pIndex){
+                    case 0 -> GemPolishingStationEntity.this.progress = pValue;
+                    case 1 -> GemPolishingStationEntity.this.progress = maxProgress;
+                }
+            }
+
+            @Override
+            public int getCount() {
+                return 2;
+            }
+        }
     }
 
     @Override
@@ -54,14 +80,32 @@ public class GemPolishingStationEntity extends BlockEntity implements MenuProvid
         lazyItemHander.invalidate();
     }
 
+    public void drops(){
+        SimpleContainer inventory = new SimpleContainer(itemHandler.getSlots());
+        for (int i = 0; i < itemHandler.getSlots(); i++){
+            inventory.setItem(i, itemHandler.getStackInSlot(i));
+        }
+        Containers.dropContents(this.level, this.worldPosition, inventory);
+    }
+
     @Override
     public Component getDisplayName() {
-        return null;
+        return Component.translatable("block.macmod.gem_polishing_station");
     }
 
     @Nullable
     @Override
     public AbstractContainerMenu createMenu(int pContainerId, Inventory pPlayerInventory, Player pPlayer) {
-        return null;
+        return
+    }
+
+    @Override
+    protected void saveAdditional(CompoundTag pTag) {
+        super.saveAdditional(pTag);
+    }
+
+    @Override
+    public void load(CompoundTag pTag) {
+        super.load(pTag);
     }
 }

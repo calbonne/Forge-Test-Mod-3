@@ -14,7 +14,7 @@ import org.jetbrains.annotations.Nullable;
 public class GemPolishingStationBlock extends BaseEntityBlock {
     public static final VoxelShape SHAPE = Block.box(0, 0, 0, 16, 12, 16);
 
-    protected GemPolishingStationBlock(Properties pProperties) {
+    public GemPolishingStationBlock(Properties pProperties) {
         super(pProperties);
     }
 
