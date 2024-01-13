@@ -96,7 +96,7 @@ public class GemPolishingStationEntity extends BlockEntity implements MenuProvid
     @Nullable
     @Override
     public AbstractContainerMenu createMenu(int pContainerId, Inventory pPlayerInventory, Player pPlayer) {
-        return
+        return ok;
     }
 
     @Override
